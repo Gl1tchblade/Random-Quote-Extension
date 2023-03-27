@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Random Quote Extension",
+    "version": "1.0",
+    "description": "Get a random quote every time you click the button",
+    "icons": {
+      "128": "icon.png"
+    },
+    "host_permissions": [
+      "https://zenquotes.io/"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  
